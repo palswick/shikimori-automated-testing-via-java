@@ -4,16 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23d8f159-cbdf-40d4-833c-221736f35dc3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ShikimoriPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ShikimoriTest.java" afterDir="false" />
+    <list default="true" id="23d8f159-cbdf-40d4-833c-221736f35dc3" name="Changes" comment="create new project">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AuthPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PasswordGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ShikimoriOpenPagesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ShikimoriPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ShikimoriPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ShikimoriTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShikimoriTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,10 +44,20 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "last_opened_file_path": "C:/Users/User/Desktop/kurs4/Java-Junit-POM-AccountsDemo",
+    "settings.editor.selected.configurable": "File.Encoding"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ShikimoriTest">
+  <component name="RunManager" selected="JUnit.ShikimoriTest.testFillAuthorizationFormWithInValidData">
+    <configuration name="ShikimoriOpenPagesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shikimori-automated-testing-via-java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShikimoriOpenPagesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ShikimoriTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shikimori-automated-testing-via-java" />
       <option name="PACKAGE_NAME" value="" />
@@ -57,21 +67,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShikimoriTest.testOpenLoginPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShikimoriTest.testFillAuthorizationFormWithInValidData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shikimori-automated-testing-via-java" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ShikimoriTest" />
-      <option name="METHOD_NAME" value="testOpenLoginPage" />
+      <option name="METHOD_NAME" value="testFillAuthorizationFormWithInValidData" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShikimoriTest.testOpenWebsite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShikimoriTest.testFillAuthorizationFormWithNoData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shikimori-automated-testing-via-java" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ShikimoriTest" />
-      <option name="METHOD_NAME" value="testOpenWebsite" />
+      <option name="METHOD_NAME" value="testFillAuthorizationFormWithNoData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShikimoriTest.testFillAuthorizationFormWithValidData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shikimori-automated-testing-via-java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShikimoriTest" />
+      <option name="METHOD_NAME" value="testFillAuthorizationFormWithValidData" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -79,9 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShikimoriTest.testFillAuthorizationFormWithInValidData" />
+        <item itemvalue="JUnit.ShikimoriOpenPagesTest" />
         <item itemvalue="JUnit.ShikimoriTest" />
-        <item itemvalue="JUnit.ShikimoriTest.testOpenLoginPage" />
-        <item itemvalue="JUnit.ShikimoriTest.testOpenWebsite" />
+        <item itemvalue="JUnit.ShikimoriTest.testFillAuthorizationFormWithValidData" />
+        <item itemvalue="JUnit.ShikimoriTest.testFillAuthorizationFormWithNoData" />
       </list>
     </recent_temporary>
   </component>
@@ -94,6 +116,35 @@
       <option name="presentableId" value="Default" />
       <updated>1670683518666</updated>
     </task>
+    <task id="LOCAL-00001" summary="add dependencies">
+      <created>1670688021277</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670688021277</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add page objects and methods for tasks 1, 2">
+      <created>1670688054075</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670688054075</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add tests for tasks 1, 2">
+      <created>1670688072730</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670688072730</updated>
+    </task>
+    <task id="LOCAL-00004" summary="create new project">
+      <created>1670688096701</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670688096701</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,5 +157,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add dependencies" />
+    <MESSAGE value="add page objects and methods for tasks 1, 2" />
+    <MESSAGE value="add tests for tasks 1, 2" />
+    <MESSAGE value="create new project" />
+    <option name="LAST_COMMIT_MESSAGE" value="create new project" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/shikimori_automated_testing_via_java$ShikimoriTest_testFillAuthorizationFormWithValidData.ic" NAME="ShikimoriTest.testFillAuthorizationFormWithValidData Coverage Results" MODIFIED="1670872644997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

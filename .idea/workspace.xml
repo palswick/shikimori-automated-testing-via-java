@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23d8f159-cbdf-40d4-833c-221736f35dc3" name="Changes" comment="create new project">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AuthPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PasswordGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ShikimoriOpenPagesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ShikimoriPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ShikimoriPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ShikimoriTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShikimoriTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="23d8f159-cbdf-40d4-833c-221736f35dc3" name="Changes" comment="fix" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -144,7 +134,63 @@
       <option name="project" value="LOCAL" />
       <updated>1670688096701</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add password generator &amp; random string generator">
+      <created>1670947586162</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670947586162</updated>
+    </task>
+    <task id="LOCAL-00006" summary="move drom JUnit4 to JUnit5">
+      <created>1670947618179</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670947618179</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix">
+      <created>1670947634331</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670947634331</updated>
+    </task>
+    <task id="LOCAL-00008" summary="move simple tests for opening pages into 'ShikimoriOpenPagesTest.java'">
+      <created>1670947692451</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670947692451</updated>
+    </task>
+    <task id="LOCAL-00009" summary="refactor">
+      <created>1670947724495</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670947724495</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add tests">
+      <created>1670947759094</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1670947759094</updated>
+    </task>
+    <task id="LOCAL-00011" summary="refactor waiter method">
+      <created>1670947787769</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1670947787769</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix">
+      <created>1670947797429</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1670947797429</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,7 +209,14 @@
     <MESSAGE value="add page objects and methods for tasks 1, 2" />
     <MESSAGE value="add tests for tasks 1, 2" />
     <MESSAGE value="create new project" />
-    <option name="LAST_COMMIT_MESSAGE" value="create new project" />
+    <MESSAGE value="add password generator &amp; random string generator" />
+    <MESSAGE value="move drom JUnit4 to JUnit5" />
+    <MESSAGE value="move simple tests for opening pages into 'ShikimoriOpenPagesTest.java'" />
+    <MESSAGE value="refactor" />
+    <MESSAGE value="add tests" />
+    <MESSAGE value="refactor waiter method" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/shikimori_automated_testing_via_java$ShikimoriTest_testFillAuthorizationFormWithValidData.ic" NAME="ShikimoriTest.testFillAuthorizationFormWithValidData Coverage Results" MODIFIED="1670872644997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

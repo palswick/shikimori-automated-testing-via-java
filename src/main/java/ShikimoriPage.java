@@ -24,8 +24,8 @@ public class ShikimoriPage {
      private String xpathToSpanInCaptcha = "//div[@class='recaptcha-checkbox-border']";
      private String xpathToSubmitButton = "//input[@class='btn-primary btn-submit btn']";
      private String xpathToCheckWebsiteIsOpenedForRegistered = "//span[@class='nickname']";
-    public final String TEXT_TO_FILL_LOGIN_INPUT = "palswick";
-    public final String TEXT_TO_FILL_PASSWORD_INPUT = "Ghyuas32o2";
+    public final String TEXT_TO_FILL_LOGIN_INPUT = "";
+    public final String TEXT_TO_FILL_PASSWORD_INPUT = "";
     public final String TEXT_TO_CHECK_WEBSITE_IS_OPENED_FOR_REGISTERED = TEXT_TO_FILL_LOGIN_INPUT;
 
     // 4. Данные: Заполнение формы логина некорректными данными (пустые поля).
